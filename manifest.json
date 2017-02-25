@@ -1,0 +1,30 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_title": "TXTPEN INJECT"
+   },
+   "content_security_policy": "script-src 'self' https://ajax.googleapis.com https://cdnjs.cloudflare.com https://txtpen.com; object-src 'self'",
+   "description": "txtpen learns the way you highlight the web",
+   "homepage_url": "https://txtpen.com",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "96": "icon96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlMk5iEuu/Mr8KSWcTiS5DQ3RTWFZN4l+EI8avRHp/bMjPpvM/cQQM6Nn6jd/FABYUvd0Py1SiMHa2WL0BeGOi0VJU4uyi5vJPZvbtsLdEXy37QUITIklmsJQFRATLiH6qtTE1e9r8n00QXa2ibvrxT5EyWecx5ikB94lJ4OVpynJEjZOF1B4fnixKMX28ILChLu3Tcny0dKRJPykR0b3VxuEfm3r9FFLgFVl042eQoTKrmdzbgXi8ZRENR5te+ytLceDR2hqx8Zbd/vyhqPAaEhkMI2Y6TuVgbmh5Grfne2W7mzlRRCbquCKvQ6EW1AQmNaRJyZZsrASq9NPch4KoQIDAQAB",
+   "manifest_version": 2,
+   "name": "TXTPEN Web Pen",
+   "permissions": [
+    "tabs",
+    "webRequest",
+    "webRequestBlocking",
+    "http://*/*",
+    "https://*/*"
+  ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.0.1"
+}
